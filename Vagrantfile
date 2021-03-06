@@ -12,8 +12,8 @@ Vagrant.configure("2") do |config|
             python3-dev \
             python3-venv 
         sudo apt-get update
-        pip3 install --upgrade pip
-        pip3 install pandas matplotlib
+        pip install --upgrade pip
+        pip install pandas matplotlib
 
     SHELL
     
